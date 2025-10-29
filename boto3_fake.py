@@ -4,8 +4,8 @@ import boto3
 from botocore.exceptions import ClientError, NoCredentialsError, EndpointConnectionError
 
 # set fake credentials (for demo/testing only)
-os.environ["AWS_ACCESS_KEY_ID"] = "AKIAFAKEEXAMPLEKEY00000"
-os.environ["AWS_SECRET_ACCESS_KEY"] = "wJalrXUtnFEMI/K7MDENG/bPxRfiCYFAKEEXAMPLEKEY12"
+os.environ["AWS_ACCESS_KEY_ID"] = ""
+os.environ["AWS_SECRET_ACCESS_KEY"] = ""
 # Optionally set region
 os.environ["AWS_DEFAULT_REGION"] = "us-east-1"
 
